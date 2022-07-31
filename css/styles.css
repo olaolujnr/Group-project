@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/image/images-04.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 2%;
+    background-color: rgb(12, 45, 73);
+}
+
+span a{
+    color: rgb(241, 235, 235);
+    text-decoration: none;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.header .navbar a{
+     font-size: 1rem;
+     margin: 2rem;
+     text-decoration: none;
+     color:rgb(241, 235, 235) ;
+}
+
+
+
+button{
+    margin-left:20rem;
+    border: -1rem solid red;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .7rem;
+    width: 5.5rem;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.5) ;
+
+
+}
+
+.content {
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    display: flex;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.content h3{
+    margin-left: 5rem;
+    color: rgb(235, 235, 0);
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 1rem;
+    background-color: white;
+}
+
+.footer .box-container .box{
+    display: flex;
+}
+
+.footer .box img {
+    width: 50px;
+    padding: 1rem 1rem;
+}
+
+.footer .box h3{
+    font-size: 10px;
+}
+
