@@ -1,0 +1,45 @@
+body{
+    color: #FFC75F;
+}
+section{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.seamless-transfers{
+    
+
+}
+.texts{
+    background-color:#845EC2 ;
+    
+    margin-bottom: 0px;
+
+}
+.crypto-transactions{
+    
+}
+.investments{
+   
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    background-color: #845EC2;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: #FF6F91;
+}
+a:hover{
+    color:#FFC75F;
+
+}
