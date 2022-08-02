@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(/image/images-04.jpg) no-repeat;
+    background: url(/image/image\ 03.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -15,8 +15,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .5rem 2%;
-    background-color: rgb(12, 45, 73);
+    padding: .5rem 1%;
+    background-color: rgb(236, 18, 18);
 }
 
 span a{
@@ -28,7 +28,7 @@ span a{
 
 .header .navbar a{
      font-size: 1rem;
-     margin: 2rem;
+     margin: 4.3rem;
      text-decoration: none;
      color:rgb(241, 235, 235) ;
 }
@@ -58,7 +58,7 @@ button{
 
 .content h3{
     margin-left: 5rem;
-    color: rgb(235, 235, 0);
+    color: rgb(241, 13, 13);
 }
 
 .footer .box-container{
